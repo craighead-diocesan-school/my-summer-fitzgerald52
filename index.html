@@ -31,14 +31,30 @@
   }
   body {
     background-color: rgb(241, 220, 245);
+    display: grid;
+    grid:
+      " h    m    .  " auto
+      " .    m    .  " auto
+      " .    f    . " auto
+      / auto auto auto;
+  }
+
+  header {
+    grid-area: h;
+  }
+  main {
+    grid-area: m;
+  }
+  footer {
+    grid-area: f;
   }
   h1 {
     background-color: rgb(166, 166, 220);
     font-family: Consolas;
-    font-size: 3em;
+    font-size: 3.5em;
     color: rgb(248, 252, 218);
     text-align: center;
-    text-shadow: 3px 3px rgb(112, 112, 153);
+    margin-left: 10%;
   }
 
   h2 {
