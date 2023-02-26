@@ -20,10 +20,10 @@
       <img src="IMG-7968.jpg" alt="lake benmore" />
     </div>
   </main>
+  <footer>
+    <p>&copy; Emma Fitzgerald 2023</p>
+  </footer>
 </body>
-<footer>
-  <p>&copy; Emma Fitzgerald 2023</p>
-</footer>
 <style>
   div {
     display: flex;
@@ -33,10 +33,10 @@
     background-color: rgb(241, 220, 245);
     display: grid;
     grid:
-      " h    m    .  " auto
-      " .    m    .  " auto
-      " .    f    . " auto
-      / auto auto auto;
+      " h    m      " auto
+      " .    m      " auto
+      " .    f     " auto
+      / 1fr 6fr;
   }
 
   header {
@@ -122,7 +122,7 @@
   img {
     border: 10px solid #f8c4a3;
     border-style: ridge;
-    width: 20rem;
+    width: 100px;
     margin: left;
     filter: saturate(130%);
   }
