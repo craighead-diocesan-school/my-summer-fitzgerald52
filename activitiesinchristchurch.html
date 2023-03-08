@@ -1,0 +1,86 @@
+<body>
+  <head>
+    <header>
+      <h1>Activities in Christchurch</h1>
+    </header>
+  </head>
+  <nav>
+    <a href="index.html">home</a>
+    <a href="activitiesinbenmore.html">activities in Benmore</a>
+    <a href="activitiesinchristchurch.html">activities in christchurch</a>
+  </nav>
+  <main>
+    <h2>Bowling</h2>
+    <img src="" alt="me bowling" />
+    <h2>escape room</h2>
+    <img src="" alt="me after the escape room" />
+    <h2>arcade</h2>
+    <img src="" alt="me and molly in the arcade" />
+    <footer>
+      <p>&copy; Emma Fitzgerald 2023</p>
+    </footer>
+  </main>
+</body>
+<style>
+  body {
+    background-color: rgb(241, 220, 245);
+    display: grid;
+    grid:
+      " h  h  n     " auto
+      " .  m  m      " auto
+      " .  f  .     " auto
+      / 1fr 6fr;
+  }
+
+  header {
+    grid-area: h;
+  }
+  main {
+    grid-area: m;
+  }
+  footer {
+    grid-area: f;
+  }
+  nav {
+    grid-area: n;
+  }
+  h1 {
+    background-color: rgb(77, 193, 255);
+    font-family: Consolas;
+    font-size: 3.5em;
+    color: rgb(248, 252, 218);
+    margin-left: 10%;
+    margin-top: 10px;
+  }
+
+  h2 {
+    font-family: Consolas;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 2em;
+    color: rgb(77, 193, 255);
+    text-decoration: none;
+  }
+  p {
+    font-family: Consolas;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 1.6em;
+    color: rgb(77, 193, 255);
+  }
+  a {
+    font-family: Consolas;
+    font-size: 1.6em;
+    color: rgb(77, 193, 255);
+    text-decoration: none;
+    border: 4px solid rgb(248, 252, 218);
+    border-radius: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-left: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+</style>
